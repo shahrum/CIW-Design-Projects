@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	border:1px dashed red;
+}
+
+body{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.backimage{
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	background-image:url('images/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left center;
+}
+
+div.container-tooltip{
+	padding:30px 0 10px;;
+}
+
+div.container-tooltip .tooltip{
+	background-color: #ffd62c;
+	font-size:10px;
+	padding:5px 8px;
+	margin-right:20px;
+}
+
+div.container-tooltip .tooltip a{
+	text-decoration:none;
+	color:black;
+}
+
+div.container-header{
+	padding:10px 15px;
+	background-color:#ffffEF;;
+}
+
+div.container-header .logo span{
+	font-size:12px;
+	color:#CCC;
+	font-style:italic;
+	
+}
+
+div.container-header .logo h1{
+	width:147px;
+	height:48px;
+	background-image:url('images/scope_logo.jpg');
+	background-size:100% 100%;
+	text-indent:1000px;
+	overflow:hidden;
+}
+
+div.container-header .menu{
+	height:48px;
+}
+
+div.container-header ul{
+	
+	margin-left:100px;
+}
+
+div.container-header li{
+	float:left;
+	padding-top:10px;
+	
+}
+
+div.container-header ul a{
+	padding:6px 10px;
+	text-decoration:none;
+	color:#CCC;
+	display:block;
+	font-size:15px;
+}
+
+div.container-header li:hover a{
+	color:black;
+}
+
+div.container-banner{
+	margin-top:10px;
+	background:white;
+}
+
+div.container-banner .slideshow{
+	width:700px;
+	overflow:hidden;
+	position:relative;
+}
+
+div.slideshow .train{
+	width:2850px;
+	-webkit-transition : all 600ms;
+	-moz-transition: all 600ms;
+}
+
+div.container-banner .slideshow .train > div{
+	float:left;
+}
+
+div.slideshow .train > div > img{
+	display:block;
+}
+
+div.slideshow ul.btns{
+	list-style-type:none;
+	position:absolute;
+	left:580px;
+	top:320px;
+}
+
+div.slideshow li{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:#FFFFFE;
+	float:right;
+	margin-right:10px;
+	-webkit-transition : all 700ms;	
+}
+
+div.slideshow li:hover{
+	background-color:#444;
+	-webkit-transition:all 700ms;
+}
+
+div.banner-logo p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:20px;
+	color:#555;
+}
+
+div.banner-logo a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:black;
+	-webkit-transition:all 700ms;
+	-moz-transition:all 700ms;
+	
+}
+
+div.banner-logo a:hover{
+	background-color:#FDCB00;
+	-webkit-transition:all 700ms;
+	-moz-transition:all 700ms;
+}
